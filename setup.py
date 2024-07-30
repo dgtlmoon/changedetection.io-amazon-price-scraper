@@ -2,9 +2,16 @@ from setuptools import setup
 
 setup(
     name="changedetection.io-amazon-price-scraper",
-    version="0.031",
+    author="dgtlmoon",
+    url='https://changedetection.io',
+    author_email="dgtlmoon@gmail.com",
+    version="0.032",
     packages=["cdio_amazon_restock_price_scraper"],
-    long_description="A small scraper plugin to get the price data from Amazon pages which can be used to improve the 'restock and price detection' mode in changedetection.io",
+    install_requires=["changedetection.io"],
+    python_requires=">= 3.10",
+    long_description=open('README-pip.md').read(),
+    long_description_content_type='text/markdown',
+    keywords='amazon price restock detection notification price change alerts',
     entry_points={
         "changedetectionio.restock_price_scraper": [
             "cdio_amazon_restock_price_scraper = cdio_amazon_restock_price_scraper.plugin:restock_price_scraper",
