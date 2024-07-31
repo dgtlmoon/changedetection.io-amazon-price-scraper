@@ -10,11 +10,11 @@ This plugin only works with https://github.com/dgtlmoon/changedetection.io
 
 Using this plugin you can see the Amazon product prices in your dashboard.
 
-[![Dashboard screenshot of monitoring Amazon prices](https://raw.githubusercontent.com/dgtlmoon/changedetection.io-amazon-price-scraper/master/screenshot-dashboard.png)](https://changedetection.io)
+[![Dashboard screenshot of monitoring Amazon prices](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/restock-overview.png)](https://changedetection.io)
 
 Then you can further set the different conditions to get notifications of price changes
 
-[![Setting price change alerts](https://github.com/dgtlmoon/changedetection.io-amazon-price-scraper/raw/master/price-alerts.png)](https://changedetection.io)
+[![Setting price change alerts](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/restock-settings.png)](https://changedetection.io)
 
 Such as
 
