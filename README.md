@@ -1,3 +1,5 @@
+AUGUST 2024 - DEPRECATED! DO NOT USE!
+
 # Amazon price scraper plugin for changedetection.io
 
 This small plugin enhances the **"Restock & Price detection"** website watch mode for amazon.com URLs.
